@@ -1,17 +1,23 @@
 <?php
-	session_start();
+	session_start(); // création de ma session 
 	if (isset($_POST['valider2'])){
 	
 		$nom=$_POST['nom'];
 		$prenom=$_POST['prenom'];
 		$age=$_POST['age'];	
 	}
+	
+	//création des variables de session 
+	
 	$_SESSION ['nom']= $nom;
 	$_SESSION ['prenom']= $prenom;
 	$_SESSION ['age']= $age;
 	
+	// création de ma classe passager : objet ayant un nom, un prenom , un age , une destination , une assurance.
 	class passenger {
+		//création de mes variables d'instance 
 		
+		//création de mes methodes me permettant de récuperer mes différentes variables. 
 		
 		 
 	}
