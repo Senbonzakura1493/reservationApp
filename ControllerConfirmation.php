@@ -40,7 +40,7 @@ if (isset($_POST['Confirmation']))
 	//récupération de l'id de la réservation
 	$id_reservation2 = $bdd->lastInsertId();
 	
-	$_SESSION['id_reservation2']=$id_reservation2;
+	$_SESSION['id_reservation2']= $id_reservation2;
 	//enregistrement des passagers
 	
 	//prepare the query2 , insertion d'un passager

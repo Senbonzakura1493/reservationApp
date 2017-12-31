@@ -115,6 +115,11 @@ if (isset($_POST['DeleteReservation']))
 if (isset($_POST['EditReservation']))
 {	
 	include 'VueAcceuil.php';
+	$_SESSION['Edit_Reservation'] = $_SESSION['Edit_Reservation'] +1 ;
 	
 }
+
+
+
+
 ?>
